@@ -4,7 +4,8 @@
   "description": "Example of the StudioLive III series metering data",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "featherbear",
   "license": "MIT",
@@ -14,5 +15,8 @@
     "fastify-static": "^3.3.0",
     "presonus-studiolive-api": "git+https://github.com/featherbear/PreSonus-StudioLive-API.git",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }

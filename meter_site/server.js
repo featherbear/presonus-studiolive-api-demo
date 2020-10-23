@@ -40,7 +40,7 @@ if (EMULATE_CONSOLE) {
         let data = []
         for (var i = 0; i < 32; i++) {
           data.push(
-            Math.abs(parseInt(Math.random() * 65535 * Math.sin(this.i / 50)))
+            Math.abs(parseInt(65535 * (Math.random() * 0.05 + 0.95 * Math.sin(this.i / 50))))
           )
         }
         this.i++
