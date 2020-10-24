@@ -1,0 +1,21 @@
+{
+  "name": "http_commands",
+  "version": "1.0.0",
+  "description": "Trigger StudioLive III signals through HTTP commands",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "featherbear",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.7.0",
+    "fastify-plugin": "^3.0.0",
+    "presonus-studiolive-api": "git+https://github.com/featherbear/PreSonus-StudioLive-API.git"
+  }
+}
