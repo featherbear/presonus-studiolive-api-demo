@@ -3,7 +3,7 @@
 
 HTTP server that receives HTTP requests, and performs [StudioLive API](https://github.com/featherbear/presonus-studiolive-api) functions
 
-> [Read more](featherbear.cc/presonus-studiolive-api/)
+> [Read more](https://featherbear.cc/presonus-studiolive-api/)
 
 ## Installation
 
