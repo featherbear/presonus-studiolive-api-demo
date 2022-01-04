@@ -10,13 +10,13 @@
   "author": "featherbear",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "fastify": "^3.7.0",
-    "fastify-static": "^3.3.0",
-    "presonus-studiolive-api": "github:featherbear/presonus-studiolive-api#8681d9e82556745803c82a50c9c854bba5172043",
-    "socket.io": "^2.3.0"
+    "dotenv": "^10.0.0",
+    "fastify": "^3.25.3",
+    "fastify-static": "^4.5.0",
+    "presonus-studiolive-api": "featherbear/presonus-studiolive-api#v1.0.5",
+    "socket.io": "^4.4.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.15"
   }
 }
