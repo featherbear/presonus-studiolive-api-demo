@@ -16,6 +16,6 @@
     "dotenv": "^8.2.0",
     "fastify": "^3.7.0",
     "fastify-plugin": "^3.0.0",
-    "presonus-studiolive-api": "git+https://github.com/featherbear/PreSonus-StudioLive-API.git"
+    "presonus-studiolive-api": "github:featherbear/presonus-studiolive-api#8681d9e82556745803c82a50c9c854bba5172043"
   }
 }
