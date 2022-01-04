@@ -50,7 +50,7 @@ if (opts.emulateConsole) {
       this.meteringInterval = null
     }
 
-    listen () {
+    meterSubscribe () {
       // Emit a metering event every 50ms
       clearInterval(this.meteringInterval)
       this.meteringInterval = setInterval(() => {
@@ -111,7 +111,7 @@ client
 
     logger.info(`Subscribing to metering data`)
     client.on('meter', data => socketio.emit('meter', data))
-    client.listen()
+    client.meterSubscribe()
   })
 
 fastify.register(require('fastify-static'), {
