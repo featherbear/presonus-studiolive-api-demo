@@ -13,7 +13,7 @@
     "dotenv": "^10.0.0",
     "fastify": "^3.25.3",
     "fastify-static": "^4.5.0",
-    "presonus-studiolive-api": "featherbear/presonus-studiolive-api#v1.0.5",
+    "presonus-studiolive-api": "featherbear/presonus-studiolive-api#4d03ab23b3f7bc870470549509abd4f5b10da4ae",
     "socket.io": "^4.4.0",
     "winston": "^3.3.3"
   },

@@ -102,7 +102,7 @@ logger.info(
 )
 client
   .connect({
-    clientName: 'Meter Demo'
+    clientDescription: 'Meter Demo'
   })
   .then(() => {
     logger.info(

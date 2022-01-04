@@ -27,8 +27,10 @@
 
         canvasContext.clearRect(0, 0, w, h);
 
+        let dataSource = data.input || data.level
+
         for (let i = 0; i < 32; i++) {
-          let v = data.level[i];
+          let v = dataSource[i];
           if (v / 65535 > 0.8) {
             canvasContext.fillStyle = "red";
           } else if (v / 65535 > 0.5) {
