@@ -1,0 +1,6 @@
+[submodule "simple-api"]
+	path = simple-api
+	url = https://github.com/featherbear/presonus-studiolive-api-simple-api
+[submodule "midi-integration"]
+	path = midi-integration
+	url = https://github.com/featherbear/presonus-studiolive-api-midi-integration
