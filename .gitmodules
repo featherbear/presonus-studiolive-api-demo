@@ -4,3 +4,6 @@
 [submodule "midi-integration"]
 	path = midi-integration
 	url = https://github.com/featherbear/presonus-studiolive-api-midi-integration
+[submodule "bitfocus-companion"]
+	path = bitfocus-companion
+	url = https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive
