@@ -7,3 +7,6 @@
 [submodule "bitfocus-companion"]
 	path = bitfocus-companion
 	url = https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive
+[submodule "web-debug"]
+	path = web-debug
+	url = https://github.com/featherbear/presonus-studiolive-api-web-debug
