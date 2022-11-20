@@ -11,7 +11,7 @@ module.exports = require('fastify-plugin')(function (app, opts, next) {
     },
     (req, res) => {
       const { channel } = req.params
-      app.slApi.mute(channel)
+      app.slApi.mute({type: 'LINE', channel})
       res.send('OK')
     }
   )
@@ -28,7 +28,7 @@ module.exports = require('fastify-plugin')(function (app, opts, next) {
     },
     (req, res) => {
       const { channel } = req.params
-      app.slApi.unmute(channel)
+      app.slApi.unmute({type: 'LINE', channel})
       res.send('OK')
     }
   )

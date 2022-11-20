@@ -95,7 +95,12 @@ if (opts.emulateConsole) {
 }
 
 logger.info('Creating API client instance')
-const client = new APIClient(opts.consoleAddress[0], opts.consoleAddress[1])
+const client = new APIClient({
+  host: opts.consoleAddress[0],
+  port: opts.consoleAddress[1]
+}, {
+    autoreconnect: true
+})
 
 logger.info(
   `Connecting to console on ${opts.consoleAddress[0]}:${opts.consoleAddress[1]}`

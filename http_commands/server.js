@@ -12,7 +12,12 @@ if (!CONSOLE_HOST || !CONSOLE_PORT || !SERVER_HOST || !SERVER_PORT) {
 fastify.decorate(
   'slApi',
   (function () {
-    let api = new Client(CONSOLE_HOST, CONSOLE_PORT)
+    let api = new Client({
+      host: CONSOLE_HOST,
+      port: CONSOLE_PORT
+    }, {
+      autoreconnect: true
+    })
     api.connect()
     return api
   })()
